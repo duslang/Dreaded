@@ -451,7 +451,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
         case "menu":
 let cap = `╭════〘 *_ <  𝞛𝞓𝘿𝘿𝙇𝞘𝞠Z BOT_>* 〙═⊷❍
 ┃✯╭──────────────
-┃✯│ *_𝐎𝐰𝐧𝐞𝐫 : ░▒▓█ <  𝞛𝞓𝘿𝘿𝙇𝞘𝞠Z>█▓▒░
+┃✯│ *_𝐎𝐰𝐧𝐞𝐫 : ░<  𝞛𝞓𝘿𝘿𝙇𝞘𝞠Z>░
 ┃✯│ *_𝐔𝐬𝐞𝐫 :. ${m.pushName}
 ┃✯│ *_𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : 𝐋𝐢𝐧𝐮𝐱_*
 ┃✯│ *_𝐒𝐩𝐞𝐞𝐝 : 0.0041 𝐦𝐬_*
@@ -462,7 +462,7 @@ let cap = `╭════〘 *_ <  𝞛𝞓𝘿𝘿𝙇𝞘𝞠Z BOT_>* 〙═�
 ┃✯│
 ┃✯│▎▍▌▌▉▏▎▌▉▐▏▌
 ┃✯│▎▍▌▌▉▏▎▌▉▐▏▌
-┃✯│  𝐓𝐡𝐞𝐞 𝐂𝐫𝐨𝐰𝐧 
+┃✯│  mad_slime🍏
 ┃✯│
 ┃╰─────
 ╰─────────────────❍
@@ -1862,7 +1862,7 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d6dab955fbaa42fce2280.jpg' }, caption: `Hello ${m.pushName}, Dreaded is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://quantumlab.ru.eu.org/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d6dab955fbaa42fce2280.jpg' }, caption: `oi ${m.pushName}, mad_slimes is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://quantumlab.ru.eu.org/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -2004,7 +2004,7 @@ case "movie":
  break;
  
           case "script": case "repo": case "sc": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nYou can link dreaded bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@botdreaded/Pairing-Dreaded\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact us for help!\n\nMade on Earth by Humans!` }, {quoted: m}); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Maddlipz/DREADED-GPT-AI\n\nYou can link dreaded bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@botdreaded/Pairing-Dreaded\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact maddlipz wa.me.254775618382!\n\nMade on Earth by Humans!` }, {quoted: m}); 
   
  break; 
 
