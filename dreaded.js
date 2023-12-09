@@ -90,7 +90,7 @@ const dev = process.env.DEV || '254775618382';
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'TRUE';
-   const bad = process.env.BAD_WORD || 'fuck';
+   const bad = process.env.BAD_WORD || 'maddlipz';
     const autoread = process.env.AUTOREAD || 'FALSE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
@@ -106,8 +106,8 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const botAdmin = process.env.BOT_ADMIN_MSG || 'Am I an admin?'
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const wapresence = process.env.WA_PRESENCE || 'recording';
-const antilink = process.env.ANTILINK || 'TRUE';
-const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
+const antilink = process.env.ANTILINK || 'FALSE';
+const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
 
 function _0xfb25(_0x4763fd, _0xf70ff) {
     const _0x6abf0e = _0x1492();
@@ -563,7 +563,7 @@ let cap = `╭════〘 *_ <  𝞛𝞓𝘿𝘿𝙇𝞘𝞠Z BOT_>* 〙═�
 ┃✯│ *_𝐆𝐩𝐭 𝐢𝐧𝐛𝐨𝐱_*
 ✯╰───────────────❍
 ╰═══════════════⊷❍`
-if (menu === 'VIDEO') {
+if (menu === 'LINK') {
 
                    client.sendMessage(m.chat, {
                         video: fs.readFileSync('./menu.mp4'),
@@ -599,7 +599,7 @@ client.sendMessage(m.chat, {
           // Group Commands
 break;
 
-
+       case "maddlipz":      
 case "advice":
 reply(advice());
 console.log(advice());
