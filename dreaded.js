@@ -85,7 +85,7 @@ const maindev = '254775618382';
 const maindev2 = maindev.split(",");
 
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254775618382'
+const dev = process.env.DEV || '254775618382';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
